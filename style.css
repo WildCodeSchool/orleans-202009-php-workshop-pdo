@@ -1,0 +1,21 @@
+.stories {
+    display: flex;
+}
+
+.stories > div {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+}
+.stories > div:hover {
+    box-shadow: 2px 2px 2px grey
+}
+
+.stories > div h2 {
+    font-size: 20px;
+}
+.stories > div > div {
+    color: grey;
+    font-size: 12px;
+}
